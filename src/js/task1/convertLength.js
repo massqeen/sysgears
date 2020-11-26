@@ -1,5 +1,5 @@
-import convertJson from './convertJsonToObj';
-import extendFactors from './extendFactors';
+import convertJson from '../convertJsonToObj';
+import extendFactors from './factors/extendFactors';
 import convertValue from './convertValue';
 import factorsJson from './factors/factors';
 import extraFactorsJson from './factors/extraFactors';
