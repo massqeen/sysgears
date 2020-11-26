@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:massqeen/"
+    "url": "git@github.com:massqeen/sysgears.git"
   },
   "keywords": [],
   "author": "Arthur Plyuschevski <massqeen@gmail.com>",
   "license": "MIT",
-  "homepage": "git@github.com:massqeen/",
+  "homepage": "git@github.com:massqeen/sysgears.git",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",

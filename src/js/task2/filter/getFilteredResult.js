@@ -1,4 +1,4 @@
-import { INCLUDE_PARAM_NAME, EXCLUDE_PARAM_NAME } from '../actionNames';
+import { INCLUDE_PARAM_NAME, EXCLUDE_PARAM_NAME } from '../actionParamNames';
 
 const getFilteredResult = (data, filterParam, conditionName) => {
   const [filterKey] = Object.keys(filterParam);

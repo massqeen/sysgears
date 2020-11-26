@@ -5,7 +5,7 @@ import {
   SORT_PARAM_NAME,
   INCLUDE_PARAM_NAME,
   EXCLUDE_PARAM_NAME,
-} from './actionNames';
+} from './actionParamNames';
 
 const getResult = (json) => {
   const entry = convertJson(json);
