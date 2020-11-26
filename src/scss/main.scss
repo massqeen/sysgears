@@ -1,0 +1,14 @@
+@import 'normalize.scss';
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+}
+
+//reset margin from normalize
+h1 {
+  margin-top: 0;
+}
