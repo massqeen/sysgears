@@ -11,11 +11,7 @@ const getResult = (json) => {
   const entry = convertJson(json);
   const { data, condition: conditionsObj } = entry;
   let result = data;
-
-  console.log('data', data);
-  console.log('conditionsObj', conditionsObj);
   const conditionNames = Object.keys(conditionsObj);
-  console.log('condition names', conditionNames);
 
   conditionNames.forEach((conditionName) => {
     if (
@@ -23,16 +19,15 @@ const getResult = (json) => {
       conditionName === INCLUDE_PARAM_NAME
     ) {
       const filterParam = conditionsObj[conditionName][0];
-      console.log('filterParam', filterParam);
       result = getFilteredResult(result, filterParam, conditionName);
-      console.log('res after filter', result);
     }
     if (conditionName === SORT_PARAM_NAME) {
       const sortParam = conditionsObj[conditionName][0];
       result = getSortedResult(result, data, sortParam);
     }
   });
-  console.log('result', result);
+  console.log('task2:', JSON.stringify({ result }));
+  return JSON.stringify({ result });
 };
 
 export default getResult;

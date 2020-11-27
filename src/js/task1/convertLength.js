@@ -24,6 +24,7 @@ const convertLengthUnits = (json) => {
     unit: to,
     value: convertValue(basicUnit, unit, to, value, factors),
   };
+  console.log('task1:', JSON.stringify(result));
   return JSON.stringify(result);
 };
 export default convertLengthUnits;

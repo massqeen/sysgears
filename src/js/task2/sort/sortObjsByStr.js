@@ -8,7 +8,6 @@ const sortObjsByStr = (objs, param) => {
     }
     return 0;
   });
-  console.log('strings', arr);
   return arr;
 };
 
