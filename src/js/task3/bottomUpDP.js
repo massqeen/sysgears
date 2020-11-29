@@ -47,6 +47,10 @@ let bottomUpDP = function (num) {
   // in case of even sum but no solutions [5,7,7,3,10]
   if (!result.length) {
     getSubsetsRecursive(num, n - 1, sum - 1, arr, dp);
+    // still no solution [1,2,3,100]
+    if (!result.length) {
+      return [Math.max(...num)];
+    }
   }
   return result;
 };

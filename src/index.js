@@ -16,5 +16,5 @@ const taskJson2 =
 getResult(taskJson2);
 
 // task 3
-const taskJson3 = '{"set": [3, 3, 3, 7, 5]}';
+const taskJson3 = '{"set": [4,5,6,7,8]}';
 separateSet(taskJson3);
